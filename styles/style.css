@@ -1,0 +1,38 @@
+
+
+html,body{
+    height: 100%;
+    background-color: black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 100%;
+    
+}
+.date{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.row{
+    font-family: 'Alkalami', serif;
+    font-size: 1.5rem;
+}
+i:hover{
+    color: red;
+    height: 30px;
+    border-bottom: 3px solid yellow;
+}
+.clock{
+    height: 30px;
+    border-bottom: 1px solid blue;
+}
+.btn{
+    margin-left: 5%;
+}
